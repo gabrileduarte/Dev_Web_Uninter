@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="img/uni.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div5"> <!-- Cabeçalho -->
+        <ul> <!-- Botões do cabeçalho -->
+          <div id="div1"> <li><a href="index.html" id="a1">Home</a></li></div>
+            <div id="div1"><li><a href="portfolio.html" id="a1">Portfolio</a></li></div>
+              <div id="div1"><li><a href="formacao.html" id="a1">Formação</a></li></div>
+                <div id="div1"><li><a href="contato.html" id="a1">Contato</a></li></div>
+        </ul>
+      </div>
+      <h1>Contato</h1> <!-- Titulo -->
+        <hr>
+    <div id="div4">
+        <form action="contact_send.php" method="post"> <!-- Fromulario -->
+            <table>
+                <tr>
+                    <th>
+                        <label for="nome">Nome:</label>
+                    </th>
+                    <th id="th1">
+                        <input type="text" id="nome" name="nome" required>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="email">E-mail:</label>
+                    </th>
+                    <th id="th1">
+                        <input type="text" id="email" name="email" required>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="telefone">Telefone:</label>
+                    </th>
+                    <th id="th1">
+                        <input type="text" id="telefone" name="telefone">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="mensagem">Mensagem:</label>
+                    </th>
+                    <th id="th1">
+                        <textarea id="mensagem" name="mensagem"></textarea>
+                    </th>
+                </tr>    
+            </table>
+        </form>
+    </div>
+    <th><button type="submit">Enviar</button></th> <!-- Botão de envio -->
+</body>
+</html>
